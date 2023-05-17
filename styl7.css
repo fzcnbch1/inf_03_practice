@@ -1,0 +1,55 @@
+body{
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    font-family: Helvetica;
+}
+header, footer{
+    background-color: rgb( 70, 130, 180);
+    color: white;
+    height: 30px;
+    text-align: center;
+    width: 100%;
+}
+h2{
+    margin: 0px;
+}
+main {
+    background-color: rgb(176, 196, 222);
+    padding: 50px;
+    text-align: center;
+}
+#lewy{
+    background-color: rgb( 70, 130, 180);
+    color: white;
+    height: 300px;
+    width: 80%;
+}
+#prawy{
+    background-color: rgb( 70, 130, 180);
+    color: white;
+    height: 300px;
+    width: 20%;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#mzdj {
+    padding: 3px;
+    border: dotted blue 1px;
+    border-radius: 10px;
+
+}
+.zdj {
+    height: 40%;
+
+}
+.zdj:hover{
+    border: 1px solid white;
+}
+#gw {
+    display: flex;
+    flex-direction: row;
+}
