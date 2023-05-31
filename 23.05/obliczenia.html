@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacja Paliw</title>
+    <link rel="stylesheet" href="styl2.css">
+</head>
+<body>
+    <header>
+        <h1>Całodobowa stacja paliw</h1>
+    </header>
+    <menu>
+        <a href="stacja.html"> <img src="home.png" alt="homes"> </a>
+        <a href="obliczenia.html"> <img src="znak.png" alt="obliczenia"> </a>
+        <a href="kwerendy.txt">pobierdz dokument</a>
+    </menu>
+    <main>
+        <section id="lewy">
+            <h2>Orientacyjny koszt paliwa</h2>
+            <label for="paliwo">Rodzaj paliwa (1-benzyna, 2-olejnapędowy): </label><br>
+                <input type="number" name="litry" id="litry"><br>
+            <label for="paliwo">Ile litrów </label><br>
+                <input type="number" name="paliwo" id="paliwo"><br>
+            <input type="button" value="OBLICZ" id="btn">
+            <p id="wynik"></p>
+
+        </section>
+        <section id="prawy">
+            <img src="samochod.jpg" alt="samochod" id="sam">
+        </section>
+    </main>
+    <footer>
+        <p>strone opracowal:00000000</p>
+    </footer>
+    <script>
+        var btn = document.getElementById("btn");
+        console.log(btn)
+        btn.addEventListener("click", function(){
+            var litry= document.getElementById("paliwo").value;
+            var paliwo= document.getElementById("litry").value;
+            if (paliwo == 1){
+                var cena = litry*4;
+
+                document.getElementById("wynik").innerHTML = ("koszt paliwa:" + cena + "zł");
+            }
+            else if (paliwo == 2){
+                var cena = litry*3.5;
+
+                document.getElementById("wynik").innerHTML = ("koszt paliwa:" + cena + "zł");
+            }
+           
+        })
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body{
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+   
+}
+*{
+    text-align: center;
+    font-family: cambria;
+}
+
+header, footer {
+    color: white;
+    font-size: 150%;
+    background-color: rgb(120, 0, 46);
+    padding: 5px;
+}
+menu{
+    background-color: rgb(173, 20, 87);
+    text-align: left;
+    margin: 0px;
+    
+}
+
+#lewy{
+    background-color: snow;
+    color: olivedrab;
+    width: 60%;
+    height: 322px;
+    text-align: left;
+
+}
+#prawy {
+    background-color: rgb(173, 20, 87);
+    width: 40%;
+    height: 322px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+#sam {
+    padding: 10px;
+    margin: 40px;
+}
+#sam:hover{
+    border: 1px dotted yellowgreen;
+}
+a{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+td{
+    border: 1px solid olivedrab;
+}
+table{
+    width: 90%;
+    border: 1px solid olivedrab;
+}

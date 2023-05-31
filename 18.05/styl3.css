@@ -1,0 +1,71 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    font-family: tahoma;
+
+}
+header{
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+}
+main {
+    background-color: seashell;
+    height: 500px;
+    overflow: auto;
+}
+img{
+    height: 200px;
+    width: 150px;
+}
+footer div{
+    background-color: tomato;
+    height: 160px;
+    width: 25%;
+    color: white;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+}
+img {
+    float: left; 
+    margin: 10px; 
+    border-radius: 10px; 
+  }
+  blockquote{
+    padding: 10px;
+    font-size: 150%;
+    font-style: oblique;
+  }
+
+  h1, h2 {
+    text-align: center;
+
+
+}
+
+h4{
+    text-align: right;
+    margin-right: 40px;
+    font-size: 150%;
+    font-style: oblique;
+
+}
+a{
+    color: white;
+}
+
+.opinia {
+    background-color: white;
+    color: dimgray;
+    width: 60%;
+    height: 220px;
+    margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px 5px dimgray;
+
+}
